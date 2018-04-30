@@ -40,4 +40,4 @@ RUN pip install -r requirements.txt
 # Expose Jupyter port & cmd
 EXPOSE 8888
 RUN mkdir -p /opt/app/data
-CMD jupyter lab --ip=* --port=8888 --no-browser --notebook-dir=/opt/app/data
+CMD jupyter lab --ip=* --allow-root --port=8888 --no-browser --notebook-dir=/opt/app/data
