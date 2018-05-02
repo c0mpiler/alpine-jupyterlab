@@ -1,8 +1,8 @@
-cython
+#cython
 numpy
 pandas
 matplotlib
-netCDF4
+#netCDF4
 folium
 lxml
 nltk
